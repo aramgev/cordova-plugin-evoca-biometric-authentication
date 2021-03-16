@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-evoca-biometric-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-evoca-biometric-authentication",
+    "platforms": [
+      "android",
+	  "ios"
+    ]
+  },
+  "keywords": [
+    "cordova-android"
+  ],
+  "author": "Aram Gevorgyan",
+  "license": "Apache 2.0"
+}

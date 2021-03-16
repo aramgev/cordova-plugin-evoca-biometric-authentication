@@ -1,0 +1,36 @@
+<resources>
+  
+    <string name="check_internet_connection">Отсутствует интернет соединение.</string>
+    <string name="action_cardname_zoomin">Приближение</string>
+    <string name="action_cardname_zoomout">Отдаление</string>
+    <string name="action_cardname_smile">Улыбка</string>
+    <string name="action_cardname_blink">Моргание</string>
+    <string name="action_cardname_scan">Сканирование</string>
+    <string name="action_cardname_head_up">Поднять голову</string>
+    <string name="action_cardname_head_down">Опустить голову</string>
+    <string name="action_cardname_head_right">Повернуть голову направо</string>
+    <string name="action_cardname_head_left">Повернуть голову налево</string>
+    <string name="action_cardname_combo">Комбо</string>
+    <string name="action_cardname_logout">Logout</string>
+
+    <string name="common_null_text"></string>
+
+    <string name="alert_dialog_sdk_status_title">Статус</string>
+
+    <string name="alert_dialog_number_of_attempts_exhausted">Исчерпан лимит попыток</string>
+
+    <string name="network_upload_status_processing">Видео загружается на сервер</string>
+    <string name="network_upload_status_done">Видео загружено на сервер, идет анализ</string>
+    <string name="network_upload_status_failed">Ошибка при загрузке видео</string>
+
+    <string name="network_video_analyses_status_ok">Результат - ОК</string>
+    <string name="network_video_analyses_status_declined">Результат - Отклонено</string>
+    <string name="network_video_analyses_status_failed">Результат - при анализе на сервере произошла ошибка</string>
+
+    <string name="network_video_analyses_status_analyse_is">Анализ </string>
+    <string name="network_video_analyses_status_analyse_is_processing">Выполняется анализ</string>
+    <string name="network_video_analyses_status_code_is">Код запроса - </string>
+    <string name="network_request_failed">Запрос выполнен с ошибкой</string>
+
+    <string name="alert_dialog_analyses_result_title">Ответ сервера</string>
+</resources>

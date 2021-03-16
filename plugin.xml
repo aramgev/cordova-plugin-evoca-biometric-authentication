@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-evoca-biometric-authentication" version="1.0.0">
+   <name>Biometric Authentication</name>
+   <js-module name="BiometricAuthentication" src="www/BiometricAuthentication.js">
+      <clobbers target="biometricauthentication" />
+   </js-module>
+
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="BiometricAuth"><param name="android-package" value="cordova.plugin.biometricauth.BiometricAuth" />
+			</feature>
+		</config-file>
+
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/BiometricAuth.java" target-dir="src/cordova-plugin-evoca-biometric-authentication/BiometricAuth" />
+		<framework custom="true"  src="src/android/biometric.gradle" type="gradleReference" />
+
+		 <source-file  src="src/android/gradle.properties" target-dir="../../" />
+		 
+		 <preference name="API_URL" />
+		 <preference name="USERNAME" />
+		 <preference name="PASSWORD" />
+
+
+		<resource-file src="src/android/libs/oz-liveness-sdk-3.4.4-release.aar" target="libs/oz-liveness-sdk-3.4.4-release.aar"/>
+			
+		<source-file src="src/android/res/values/bcolors.xml" target-dir="res/values"/>
+		<source-file src="src/android/res/values/bstyles.xml" target-dir="res/values"/>	
+
+		<!--
+			<source-file src="src/android/res/values/bstrings.xml" target-dir="res/values"/>
+		<source-file src="src/android/res/values-hy/bstrings.xml" target-dir="res/values-hy"/>
+		-->
+
+		<config-file target="res/values/bstrings.xml" parent="/*">
+			<string name="api_url">$API_URL</string>
+			<string name="username">$USERNAME</string>
+			<string name="password">$PASSWORD</string>
+		</config-file>	
+	</platform>
+
+   <!-- iOS platform  conifigurations -->
+   <platform name="ios">
+      <!-- iOS platform  conifiguration files -->
+      <config-file parent="/*" target="config.xml">
+         <feature name="BiometricAuthentication">
+            <param name="ios-package" value="BiometricAuthentication" />
+         </feature>
+      </config-file>
+
+      <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+         <string>App uses camera.</string>
+       </config-file>
+
+       <!-- <hook type="before_plugin_install" src="src/scripts/prepareCocoaPods.js" /> -->
+
+      <!-- iOS platform source and resource files -->
+      <source-file src="src/ios/src/BiometricAuthentication.swift"/>
+      <!-- iOS platform frameworks -->
+      <podspec>
+         <config>
+           <source url="https://github.com/CocoaPods/Specs.git"/>
+           <source url="https://gitlab.com/oz-forensics/oz-liveness-ios.git"/>
+         </config>
+         <pods use-frameworks="true" inhibit-all-warnings="true" >
+           <pod name="OZLivenessSDK" git="https://gitlab.com/oz-forensics/oz-liveness-ios.git" sepc="1.2.7" branch="develop" configurations="Debug,Release"/>
+         </pods>
+       </podspec> 
+	   
+   </platform>
+
+
+</plugin>

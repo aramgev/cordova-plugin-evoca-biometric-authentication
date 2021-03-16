@@ -1,0 +1,54 @@
+<resources>
+  
+    <string name="camera_error">Տեսախցիկի սխալ</string>
+    <string name="more_than_one_face">Համոզվեք որ կադրում բացի ձեզանից ոչ ոք չկա </string>
+    <string name="number_of_attempts_exhausted">Փորձերի հնարավորությունը գերազանցած է </string>
+
+    <string name="sdk_name">OzLivenessSDK</string>
+
+    <string name="oz_action_hint_not_centered">Համադրեք Ձեր դեմքը շրջանակի հետ</string>
+    <string name="oz_action_hint_move_closer">Մոտեցրեք</string>
+    <string name="oz_action_hint_move_away">Հեռացրեք</string>
+    <string name="oz_action_hint_look_straight">Շրջեք  դեմքը դեպի տեսախցիկը</string>
+    <string name="oz_action_hint_dont_smile">Ժպիտը անհրաժեշտ կլինի մի փոքրուշ, իսկ այժմ խնդրում ենք մի ժպտացեք</string>
+    <string name="oz_action_hint_dont_left_or_right_head">Պտույտը անհրաժեշտ կլինի մի փոքր ուշ: Իսկ այժմ նայեք տեսախցիկին</string>
+    <string name="oz_action_hint_open_eyes_wide">Լայն բացեք աչքերը</string>
+    <string name="oz_action_hint_face_aligned">Շատ լավ, մի շարժեք  հեռախոսը </string>
+    <string name="oz_action_repeat">Խնդրում ենք կրկնել գործողությունը, ձեր դեմքը պահելով շրջանակի մեջ</string>
+
+    <string name="oz_action_zoom_in_go">Այժմ մոտեցրեք հեռախոսը</string>
+    <string name="oz_action_zoom_out_go">Այժմ հեռացրեք հեռախոսը</string>
+    <string name="oz_action_smile_go">Այժմ ժպտացեք</string>
+    <string name="oz_action_blink_go">Այժմ թարթեք</string>
+    <string name="oz_action_scan_go">Նայեք այստեղ</string>
+    <string name="oz_action_head_up_go">Բարձրացրեք գլուխը</string>
+    <string name="oz_action_head_down_go">Իջեցրեք գլուխը</string>
+    <string name="oz_action_head_right_go">Շրջեք գլուխը դեպի աջ</string>
+    <string name="oz_action_head_left_go">Շրջեք գլուխը դեպի ձախ</string>
+
+    <string name="oz_action_hint_OK">Շատ լավ</string>
+    <string name="oz_action_hint_OK_intermediate">Շատ լավ, մի շարժեք հեռախոսը</string>
+
+
+    <string name="network_video_analyses_status_failed">Վերլուծության ժամանակ համակարգում առաջացել է սխալ</string>
+
+    <string name="oz_network_upload_status_processing">Տեսանյութը ներբեռնվում է համակարգ</string>
+    <string name="oz_network_upload_status_done">Տեսանյութը ներբեռնված է համակարգ</string>
+    <string name="oz_network_upload_status_failed">Տեսանյութի բեռնման ժամանակ առաջացել է սխալ</string>
+
+    <string name="oz_network_upload_status_processing_image">Նկարը ներբեռնվում է համակարգ</string>
+    <string name="oz_network_upload_status_done_image">Նկարը ներբեռնված է համակարգ</string>
+    <string name="oz_network_upload_status_failed_image">Նկարի բեռնման ժամանակ առաջացել է սխալ</string>
+
+    <string name="oz_network_video_analyses_status_analyse_is">Վերլուծություն</string>
+    <string name="oz_network_video_analyses_status_analyse_is_processing">Կատարվում է վերլուծություն</string>
+    <string name="oz_network_request_failed">Հարցման ժամանակ առաջացել է սխալ</string>
+
+    <string name="oz_alert_dialog_fail_action_title">Գործողությունը հայտնաբերված չէ</string>
+
+    <string name="oz_check_internet_connection">Ինտերնետ կապը հասանելի չէ</string>
+
+    <string name="see_on_this_text">Նայեք տեքստին</string>
+
+    <string name="unknown_error">Անհայտ սխալ</string>
+</resources>

@@ -1,0 +1,46 @@
+
+/* OZFrameViewController */
+
+// Алерт. Получение доступа к камере
+"CameraAccess.Alert.Title"        = "Разрешите доступ";
+"CameraAccess.Alert.Message"      = "Чтобы пройти проверку, нужен доступ к камере";
+"CameraAccess.Alert.OkTitle"      = "Разрешить";
+"CameraAccess.Alert.CancelTitle"  = "Отмена";
+
+/* OZLivenessViewController */
+
+// Алерт. Не пройдена проверка
+"FailAttention.Alert.Title"       = "Внимание";
+"FailAttention.Alert.Message"     = "Проверка не пройдена";
+"FailAttention.Alert.OkTitle"     = "Повторить";
+"FailAttention.Alert.CancelTitle" = "Отмена";
+
+// Подсказки
+"FaceState.Right.Recommendation"            = "Левее";
+"FaceState.Left.Recommendation"             = "Правее";
+"FaceState.High.Recommendation"             = "Ниже";
+"FaceState.Low.Recommendation"              = "Выше";
+"FaceState.Far.Recommendation"              = "БЛИЖЕ";
+"FaceState.Close.Recommendation"            = "ДАЛЬШЕ";
+"FaceState.Indirect.Recommendation"         = "Поверните лицо к камере";
+"FaceState.WithoutIncline.Recommendation"   = "Держите голову ровнее";
+"FaceState.Smile.Recommendation"            = "Улыбка понадобится чуть позже. Сейчас, пожалуйста, не улыбайтесь";
+"FaceState.ClosedEyes.Recommendation"       = "Широко откройте глаза";
+"FaceState.Noface.Recommendation"           = "Поместите лицо в рамку";
+"FaceState.FixRequired.Recommendation"      = "Хорошо, \nне двигайте телефон…";
+
+// Остальное
+"FinalWaitingLivenessCheck" = "Хорошо, не двигайте телефон...";
+
+// Рекомендации для выполнения жестов
+"Action.Far.Task"       = "Отдалите лицо";
+"Action.Close.Task"     = "Приблизьте лицо";
+"Action.Close.EvenCloser"   = "Еще ближе";
+"Action.Close.EvenFurther"  = "Еще дальше";
+"Action.Smile.Task"     = "Улыбнитесь";
+"Action.Up.Task"        = "Поднимите голову";
+"Action.Down.Task"      = "Наклоните голову";
+"Action.Left.Task"      = "Поверните голову налево";
+"Action.Right.Task"     = "Поверните голову направо";
+"Action.Scanning.Task"  = "Проследите за текстом";
+"Action.Eyes.Task"      = "Закройте глаза на секунду";

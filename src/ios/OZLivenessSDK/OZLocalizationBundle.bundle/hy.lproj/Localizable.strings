@@ -1,0 +1,46 @@
+
+/* OZFrameViewController */
+
+// Алерт. Получение доступа к камере
+"CameraAccess.Alert.Title"        = "Grant permissions";
+"CameraAccess.Alert.Message"      = "Camera permission is required";
+"CameraAccess.Alert.OkTitle"      = "Permit";
+"CameraAccess.Alert.CancelTitle"  = "Cancel";
+
+/* OZLivenessViewController */
+
+// Алерт. Не пройдена проверка
+"FailAttention.Alert.Title"       = "Attention";
+"FailAttention.Alert.Message"     = "Check failed";
+"FailAttention.Alert.OkTitle"     = "Repeat";
+"FailAttention.Alert.CancelTitle" = "Cancel";
+
+// Подсказки
+"FaceState.Right.Recommendation"            = "Move face left";
+"FaceState.Left.Recommendation"             = "Move face right";
+"FaceState.High.Recommendation"             = "Move face downward";
+"FaceState.Low.Recommendation"              = "Move face upward";
+"FaceState.Far.Recommendation"              = "Closer";
+"FaceState.Close.Recommendation"            = "Move away";
+"FaceState.Indirect.Recommendation"         = "Turn face straight to the camera";
+"FaceState.WithoutIncline.Recommendation"   = "Turn face straight to the camera"; //Держите голову ровнее
+"FaceState.Smile.Recommendation"            = "Will ask you to smile later. Don't smile now please";
+"FaceState.ClosedEyes.Recommendation"       = "Opeyes wide";
+"FaceState.Noface.Recommendation"           = "Align your face with the frame";
+"FaceState.FixRequired.Recommendation"      = "Great, don't move the phone…";
+
+// Остальное
+"FinalWaitingLivenessCheck" = "Great, don't move the phone…";
+
+// Рекомендации для выполнения жестов
+"Action.Far.Task"       = "Move the phone FROM your face";
+"Action.Close.Task"     = "Move the phone closer";
+"Action.Close.EvenCloser"   = "Even closer";
+"Action.Close.EvenFurther"  = "Even further";
+"Action.Smile.Task"     = "Smile";
+"Action.Up.Task"        = "Move your head up";
+"Action.Down.Task"      = "Move your head down";
+"Action.Left.Task"      = "Turn your head to the left";
+"Action.Right.Task"     = "Turn your head to the right";
+"Action.Scanning.Task"  = "Follow this text";
+"Action.Eyes.Task"      = "Blink/Close you eyes";
