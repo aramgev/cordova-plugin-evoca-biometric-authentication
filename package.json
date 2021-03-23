@@ -1,17 +1,22 @@
 {
   "name": "cordova-plugin-evoca-biometric-authentication",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "cordova": {
     "id": "cordova-plugin-evoca-biometric-authentication",
     "platforms": [
       "android",
-	  "ios"
+      "ios"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aramgev/cordova-plugin-evoca-biometric-authentication"
   },
   "keywords": [
     "cordova-android"
   ],
+  "homepage": "https://github.com/aramgev/cordova-plugin-evoca-biometric-authentication",
   "author": "Aram Gevorgyan",
   "license": "Apache 2.0"
 }

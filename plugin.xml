@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-evoca-biometric-authentication" version="1.0.0">
    <name>Biometric Authentication</name>
-   <js-module name="BiometricAuthentication" src="www/BiometricAuthentication.js">
-      <clobbers target="biometricauthentication" />
+   <js-module name="BiometricAuth" src="www/BiometricAuth.js"><clobbers target="cordova.plugins.BiometricAuth" />
    </js-module>
 
 	<platform name="android">
